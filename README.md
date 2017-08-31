@@ -30,6 +30,10 @@ Lo script è strutturato in tre fasi:
 - analisi dei subset e creazione dei benchmarks per ogni regola eseguita, tramite l'esecuzione dello Snakefile;
 - creazione di una tabella in formato csv che organizza i dati presenti nei benchmarks, tramite script_benchmark.py.
 
+Nota su split.py
+- i file originali hanno circa 45'038'905 reads.
+- la dimesione massima degli split finora è dell'ordine di 1 milione di reads.
+
 Nota su config.yaml:
 - file di configurazione per lo Snakefile;
 - al suo interno sono presenti alcune voci che indicano gli elementi che caratterizzazione la computazione:
