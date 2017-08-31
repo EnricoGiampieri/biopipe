@@ -12,7 +12,7 @@ pip install matplotlib
 pip install pandas
 pip install ipython
 conda config --add channels bioconda
-mkdir ~/data_ref
+mkdir -p ~/data_ref
 #scp /mnt/avoton/biofisici/data_snakemake/human_g1k_v37.fasta.gz ~/data_ref/
 #scp /mnt/avoton/biofisici/data_snakemake/SRR1611178_1.fastq.gz ~/data_ref/
 #scp /mnt/avoton/biofisici/data_snakemake/SRR1611178_2.fastq.gz ~/data_ref/
