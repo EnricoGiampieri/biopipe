@@ -13,10 +13,10 @@ pip install pandas
 pip install ipython
 conda config --add channels bioconda
 mkdir ~/data_ref
-scp /mnt/avoton/biofisici/data_snakemake/human_g1k_v37.fasta.gz ~/data_ref/
-scp /mnt/avoton/biofisici/data_snakemake/SRR1611178_1.fastq.gz ~/data_ref/
-scp /mnt/avoton/biofisici/data_snakemake/SRR1611178_2.fastq.gz ~/data_ref/
-gunzip ~/data_ref/*.gz
+#scp /mnt/avoton/biofisici/data_snakemake/human_g1k_v37.fasta.gz ~/data_ref/
+#scp /mnt/avoton/biofisici/data_snakemake/SRR1611178_1.fastq.gz ~/data_ref/
+#scp /mnt/avoton/biofisici/data_snakemake/SRR1611178_2.fastq.gz ~/data_ref/
+#gunzip ~/data_ref/*.gz
 rm ~/biopipe/Miniconda3-latest-Linux-x86_64.sh
 chmod ugo+x script.sh
 echo " " >> ~/.bashrc
